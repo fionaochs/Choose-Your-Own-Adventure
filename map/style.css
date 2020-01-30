@@ -9,8 +9,8 @@
     background-image: url("../assets/map.png");
     background-size: contain;
     background-repeat: no-repeat;
-    width: 90vw;
-    height: calc(90vw * 642 / 900);
+    width: 800px;
+    height: 900px;
     margin: auto;
 }
 

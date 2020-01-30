@@ -8,7 +8,7 @@ function createQuestLink(quest){
 //link for href ../quest/?id='questId'
 
     link.style.top = quest.map.top;
-    link.style.bottom = quest.map.bottom;
+    link.style.left = quest.map.left;
     link.textContent = quest.title;
 //set link to same properties as map location in quest object
 

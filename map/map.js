@@ -3,8 +3,8 @@ import { getUser } from '../data/api.js';
 import quests from '../data/quest-data.js';
 import loadProfile from '../common/load-profile.js';
 import createQuestLink from './create-quest-link.js';
-import createCompletedQuest from './create-completed-quest.js';
-import hasCompletedAllQuests from './has-completed-all-quests.js';
+import createCompletedQuest from './create-completed-quests.js';
+import hasCompletedAllQuests from './has-completed-quests.js';
 import isDead from '../common/is-dead.js';
 
 //load user profile and get from local storage
@@ -23,7 +23,7 @@ const nav = document.getElementById('quests');
 //set quest display to null first
 //loop through all quests to check
 for (let i = 0; i < quests.length; i++){
-    const quest = quest[i];
+    const quest = quests[i];
     let questDisplay = null;
     //initialize quest display to nothing then..
     if (user.completed[quest.id]){

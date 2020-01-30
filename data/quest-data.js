@@ -2,8 +2,8 @@ const killerRabbit = {
     id: 'killerrabbit',
     title: 'The den of Caerbannog',
     map: {
-        top: '50%',
-        left: '50%'
+        top: '42%',
+        left: '40%',
     },
     image: 'killer rabbit den.jpeg',
     description: 'You come upon the rabbit of Caerbannog. It appears to be a cute fluffy white rabbit, what do you do?',
@@ -32,8 +32,8 @@ const blackKnight = {
     id: 'blackknight',
     title: 'The Forest',
     map: {
-        top: '70%',
-        left: '70%'
+        top: '55.5%',
+        left: '60%'
     },
     image: 'black knight.jpeg',
     description: `You enter the forest and come upon a clearing. There standing before you is the Black Knight. 'None shall pass' he states. Do you listen? `,
@@ -61,8 +61,8 @@ const theFrench = {
     id: 'french',
     title: 'The Castle',
     map: {
-        top: '80%',
-        left: '80%'
+        top: '69%',
+        left: '62%'
     },
     image: 'black knight.jpeg',
     description: `You come upon a castle, where you see a guard atop the turret. What do you do? `,
@@ -91,8 +91,8 @@ const KnightsNi = {
     id: 'ni',
     title: 'The Shrubbery',
     map: {
-        top: '70%',
-        left: '30%'
+        top: '69%',
+        left: '23%'
     },
     image: 'black knight.jpeg',
     description: `You enter the forest only to ambushed by the Knights who say Ni! They are devious indeed.The Knights Who Say 'Ni' demand a sacrifice. What shall you do? `,

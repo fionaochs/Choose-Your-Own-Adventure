@@ -16,13 +16,20 @@
 
 .quest {
     position: absolute;
-    color: white;
-    text-shadow: 1px 1px 1px black;
+    color: rgb(12, 63, 80);
+    text-shadow: 1px 1px 1px rgb(196, 248, 248);
+    font-size: 20px;
+    text-decoration: none;
 }
 
 .quest.completed {
     color: whitesmoke;
-    font-size: .9em;
+    font-size: 20px;
+    text-decoration: underline;
+}
+.quest:hover{
+    text-decoration: underline;
+
 }
 
 .quest.completed:after {

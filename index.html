@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Choose Your Own Adventure</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h2>Welcome to the mythical land of Sondrium. Prepare for your adventure</h2>
+        <form id="user-sign-up">
+            <p id="userInputName">
+                <label for="name">Enter your name here</label>
+                <input id="name" name="name" required>
+            </p>
+            <fieldset>
+                <legend>Pick your character</legend>
+                <p id="avatars">
+                    <label>
+                        <input type="radio" name="race" required value="ent">
+                        <img id="avatarImage" src="./assets/treebeard.jpg">
+                        Ent
+                    </label>
+                    <label>
+                        <input type="radio" name="race" required value="hobbit">
+                        <img id="avatarImage" src="./assets/hobbit.png">
+                        Hobbit
+                    </label>
+                    <label>
+                        <input type="radio" name="race" required value="dwarf">
+                        <img id="avatarImage" src="">
+                        Dwarf
+                    </label>
+                    <label>
+                        <input type="radio" name="race" required value="mushu">
+                        <img id="avatarImage" src="">
+                        Mushu
+                    </label>
+                </p>
+            </fieldset>
+            <button id="adventureButton">Start your adventure!</button>
+        </form>
+    </main>
+</body>
+</html>

@@ -64,6 +64,7 @@ choiceForm.addEventListener('submit', function(event) {
 
     //get user from LS
     const user = getUser();
+    console.log(user);
     scoreQuest(choice, quest.id, user);
     //score quest with choosen quest id the choice in the quest and user
     saveUser(user);
@@ -71,6 +72,8 @@ choiceForm.addEventListener('submit', function(event) {
 
     choiceForm.classList.add('hidden');
     result.classList.remove('hidden');
+    description.style.visibility = 'hidden';
+
     resultDescription.textContent = choice.result;
 
     loadProfile();
@@ -83,6 +86,9 @@ choiceForm.addEventListener('submit', function(event) {
     }
     if (selection.value === 'insult'){
         image.src = '../assets/quest/french.jpeg';
+    }
+    if (selection.value === 'attack'){
+        image.src = '../assets/quest/fleshwound.jpeg';
     }
     
 });

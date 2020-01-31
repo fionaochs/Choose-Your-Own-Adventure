@@ -13,7 +13,9 @@ const user = getUser();
 
 //if dead or completed all quests show results page
 //otherwise populate links for needed quests
-
+console.log('usermap', user);
+const test = hasCompletedAllQuests(quests, user);
+console.log(test);
 if (isDead(user) || hasCompletedAllQuests(quests, user)){
     window.location = '../results';
 

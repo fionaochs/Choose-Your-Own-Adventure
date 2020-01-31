@@ -44,7 +44,7 @@ const blackKnight = {
         hp: -40,
         gold: 0
     }, {
-        id: 'fight',
+        id: 'attack',
         description: 'Attack!',
         result: `You battle the knight, chopping him down limb by limb till he is left with no limbs. 'Just a flesh wound' he exclaims as you walk past, 'Come back here and take what's coming to you! I'll bite your legs off!!' screams the knight as you venture on `,
         hp: 0,
@@ -95,7 +95,7 @@ const knightsNi = {
         left: '23%'
     },
     image: 'knights.jpeg',
-    description: `You enter the forest only to ambushed by the Knights who say Ni! They are devious indeed.The Knights Who Say 'Ni' demand a sacrifice. What shall you do? `,
+    description: `You enter the forest only to be ambushed by the Knights who say Ni! They are devious indeed.The Knights Who Say 'Ni' demand a sacrifice. What shall you do? `,
     choices: [{
         id: 'shrubbery',
         description: 'Appease the knights with a Shrubbery',
@@ -109,7 +109,7 @@ const knightsNi = {
         hp: 0,
         gold: 0
     }, {
-        id: 'fight',
+        id: 'it',
         description: 'Discover the one weakness of the Knights',
         result: `You realize that the Knights cannot hear the word 'it'. Suffice to say is one of the words the Knights of Ni cannot hear. You escape and recieve gold`,
         hp: 0,

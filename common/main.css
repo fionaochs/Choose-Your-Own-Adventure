@@ -5,11 +5,15 @@ body {
 }
 
 h1, h2 {
-    font-family: 'Oswald';
+    font-family: fantasy;
+    font-size: 35px;
+
+    text-shadow: 1px 1px 1px rgb(196, 248, 248);
 }
 
 * {
     box-sizing: border-box;
+    
 }
 
 .hidden {
@@ -20,27 +24,19 @@ header, main {
     padding: 8px;
 }
 
-header {
+/* form{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: white;
     border-bottom: 1px solid teal;
-}
+} */
 
+input[type=radio]:checked ~ img {
+    border: 5px solid blue;
+}
 h1 {
     margin: 0 20px;
     flex-grow: 2;
-}
-
-footer {
-    position: fixed;
-    bottom: 0;
-    left: 0; right: 0;
-    height: 65px;
-    background: lightgrey;
-    text-align: center;
-    padding-top: 25px;
 }
 
 main {
@@ -53,13 +49,19 @@ input, fieldset, button {
 }
 
 button {
-    margin: 10px 0;
-    padding: 10px;
+    margin: 10px 0 0 50px;
+    padding: 5px;
     font-size: 25px;
     font-weight: bolder;
     font-family: fantasy;
+
 }
-/* #avatarImage{
-    height: 100px;
-    width: 150px;
-} */
+#avatar{
+    height: 150px;
+    width: 180px;
+    border-radius: 50%;
+}
+#adventureButton:hover{
+    cursor: pointer;
+    text-shadow: 1px 1px 1px rgb(41, 143, 143);
+}

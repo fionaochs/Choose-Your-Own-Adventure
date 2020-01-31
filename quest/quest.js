@@ -27,7 +27,7 @@ if (!quest){
 }
 //grab everything from DOM
 const title = document.getElementById('title');
-const images = document.getElementById('images');
+const image = document.getElementById('image');
 const choices = document.getElementById('choices');
 const choiceForm = document.getElementById('choice-form');
 const description = document.getElementById('description');
@@ -35,7 +35,7 @@ const result = document.getElementById('result');
 const resultDescription = document.getElementById('result-description');
 
 title.textContent = quest.title;
-images.src = '../assets/quest/' + quest.image;
+image.src = '../assets/quest/' + quest.image;
 description.textContent = quest.description;
 
 //for each of quests choices, go through all three
@@ -75,4 +75,8 @@ choiceForm.addEventListener('submit', function(event) {
 
     loadProfile();
     //load for new state in header
+    const selection = document.querySelector('input:checked');
+    
 });
+
+

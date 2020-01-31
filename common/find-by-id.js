@@ -3,10 +3,9 @@ function findById(array, id){
         const item = array[index];
         if (item.id === id){
             return item;
-        } else {
-
-            return null;
-        }
+        } 
+        
     }
+    return null;
 }
 export default findById;

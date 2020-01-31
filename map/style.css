@@ -1,9 +1,10 @@
 
-/* img {
-    display: block;
-    max-height: 100%;
-    max-width: 100%;
-} */
+h2{
+    text-align: center;
+}
+.profile{
+    
+}
 #quests {
     position: relative;
     background-image: url("../assets/map.png");

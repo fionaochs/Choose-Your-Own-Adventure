@@ -20,7 +20,7 @@ function loadProfile(){
     }
     //copy data from object to DOM
     name.textContent = user.name;
-    avatar.src = './assets/avatars/' + user.race + '.png';
+    avatar.src = '../assets/' + user.race + '.jpeg';
     gold.textContent = user.gold;
     //if dead update header
     if (isDead(user)){

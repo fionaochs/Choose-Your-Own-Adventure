@@ -1,11 +1,11 @@
 const killerRabbit = {
-    id: 'killerrabbit',
+    id: 'killerRabbit',
     title: 'The den of Caerbannog',
     map: {
         top: '42%',
         left: '40%',
     },
-    image: 'killer rabbit den.jpeg',
+    image: 'killer-rabbit-den.jpeg',
     description: 'You come upon the rabbit of Caerbannog. It appears to be a cute fluffy white rabbit, what do you do?',
     choices: [{
         id: 'foolish',
@@ -16,12 +16,13 @@ const killerRabbit = {
     }, {
         id: 'fight',
         description: 'Attack the bunny',
+        image: 'killer-rabbit.jpeg',
         result: `You fool! That's no ordinary rabbit! That's the most foul, cruel, and bad-tempered rodent you ever set eyes on!`,
         hp: -40,
         gold: 0
     }, {
         id: 'run',
-        description: 'Run away like brave Sir Robyn',
+        description: 'Run away like brave Sir Robin',
         result: 'Very wise indeed, you escape with your life',
         hp: 0,
         gold: 0
@@ -29,13 +30,13 @@ const killerRabbit = {
 };
 
 const blackKnight = {
-    id: 'blackknight',
+    id: 'blackKnight',
     title: 'The Forest',
     map: {
         top: '55.5%',
         left: '60%'
     },
-    image: 'black knight.jpeg',
+    image: 'black-knight.jpeg',
     description: `You enter the forest and come upon a clearing. There standing before you is the Black Knight. 'None shall pass' he states. Do you listen? `,
     choices: [{
         id: 'teatime',
@@ -58,13 +59,13 @@ const blackKnight = {
     }]
 };
 const theFrench = {
-    id: 'french',
+    id: 'theFrench',
     title: 'The Castle',
     map: {
         top: '69%',
         left: '62%'
     },
-    image: 'black knight.jpeg',
+    image: 'castle.jpeg',
     description: `You come upon a castle, where you see a guard atop the turret. What do you do? `,
     choices: [{
         id: 'inquire',
@@ -87,14 +88,14 @@ const theFrench = {
         gold: 50
     }]
 };
-const KnightsNi = {
-    id: 'ni',
+const knightsNi = {
+    id: 'knightsNi',
     title: 'The Shrubbery',
     map: {
         top: '69%',
         left: '23%'
     },
-    image: 'black knight.jpeg',
+    image: 'knights.jpeg',
     description: `You enter the forest only to ambushed by the Knights who say Ni! They are devious indeed.The Knights Who Say 'Ni' demand a sacrifice. What shall you do? `,
     choices: [{
         id: 'shrubbery',
@@ -118,7 +119,7 @@ const KnightsNi = {
 };
 const quests = [
     blackKnight,
-    KnightsNi,
+    knightsNi,
     theFrench,
     killerRabbit
 ];

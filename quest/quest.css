@@ -1,0 +1,50 @@
+main {
+    text-align: center;
+    max-width: 700px;
+    margin: auto;
+    margin-bottom: 75px;
+}
+
+.choice {
+    display: block;
+    list-style: none;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.choice input {
+    margin-right: 10px;
+}
+
+#result {
+    padding: 20px;
+}
+
+#description {
+    font-weight: bolder;
+    font-size: 25px;
+}
+#result-description {
+    font-size: 20px;
+}
+h2{
+    font-size: 55px;
+}
+#image{
+    height: 400px;
+    width: 700px;
+}
+button, a{
+    margin: 10px 0 0 50px;
+    /* background-color: rgb(20, 216, 216); */
+    padding: 5px;
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: fantasy;
+    cursor: pointer;
+    text-shadow: 1px 1px 1px rgb(41, 143, 143);
+}
+a{
+    color: white;
+    text-decoration: none;
+}

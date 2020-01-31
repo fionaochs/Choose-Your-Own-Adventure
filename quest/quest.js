@@ -75,7 +75,12 @@ choiceForm.addEventListener('submit', function(event) {
 
     loadProfile();
     //load for new state in header
-    // const selection = document.querySelector('input:checked');
+
+    //change image on specific choice
+    const selection = document.querySelector('input:checked');
+    if (selection.value === 'fight'){
+        image.src = '../assets/quest/killer-rabbit.jpeg';
+    }
     
 });
 

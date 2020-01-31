@@ -24,12 +24,6 @@ header, main {
     padding: 8px;
 }
 
-/* form{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border-bottom: 1px solid teal;
-} */
 
 input[type=radio]:checked ~ img {
     border: 5px solid blue;

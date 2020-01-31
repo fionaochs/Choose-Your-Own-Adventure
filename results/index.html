@@ -4,16 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Adventure Map</title>
+    <title>Quest Results</title>
+
     <link rel="stylesheet" href="../common/main.css">
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="../common/profile.css">
-
-
 </head>
 <body>
     <header>
-        <div class="profile">
+        <div id="profile">
             <img id="avatar" src="">
             <span id="name"></span>
             <span class="profile-stats">Health:</span>
@@ -23,10 +22,15 @@
         </div>
     </header>
     <main>
-        <h2>Choose your Quest</h2>
-        <nav id="quests"></nav>
+        <h2>Your quest for the Holy Grail has come to an end</h2>
+        <p id="story-display"></p>
+        <img id="result-image">
+        <p>
+            <a href="../">Start your quest again</a>
+        </p>
+
     </main>
-    <script type="module" src="./map.js"></script>
+    <script type="module" src="./results.js"></script>
 </body>
 
 </html>

@@ -75,7 +75,7 @@ choiceForm.addEventListener('submit', function(event) {
 
     loadProfile();
     //load for new state in header
-    const selection = document.querySelector('input:checked');
+    // const selection = document.querySelector('input:checked');
     
 });
 

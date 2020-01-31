@@ -3,7 +3,7 @@ h2{
     text-align: center;
 }
 .profile{
-    
+
 }
 #quests {
     position: relative;
@@ -31,8 +31,4 @@ h2{
 .quest:hover{
     text-decoration: underline;
 
-}
-
-.quest.completed:after {
-    content: ' ✔';
 }

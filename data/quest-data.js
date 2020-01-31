@@ -53,9 +53,9 @@ const blackKnight = {
     }, {
         id: 'run',
         description: 'Run away like brave Sir Robyn',
-        result: 'Very wise indeed, you escape with your life',
+        result: 'Very wise indeed, you escape with your life and find some gold',
         hp: 0,
-        gold: 0
+        gold: 20
     }]
 };
 const theFrench = {
@@ -65,7 +65,7 @@ const theFrench = {
         top: '69%',
         left: '62%'
     },
-    image: 'castle.jpeg',
+    image: 'holygrail.jpeg',
     description: `You come upon a castle, where you see a guard atop the turret. What do you do? `,
     choices: [{
         id: 'inquire',
@@ -102,7 +102,7 @@ const knightsNi = {
         description: 'Appease the knights with a Shrubbery',
         result: `You wander the village and happen upon, Roger the Shrubber, who arranges, designs, and sells shrubberies. You appease the Knights and go on your way`,
         hp: 0,
-        gold: 20
+        gold: -20
     }, {
         id: 'herring',
         description: 'Take the Knights test',

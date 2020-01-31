@@ -1,6 +1,6 @@
 function scoreHp(hp){
     if (hp <= 0){
-        return 'pushingUpDaisies';
+        return 'dead';
     }
     return 'healthy';
 }

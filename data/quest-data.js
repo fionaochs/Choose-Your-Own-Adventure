@@ -16,7 +16,6 @@ const killerRabbit = {
     }, {
         id: 'fight',
         description: 'Attack the bunny',
-        // image: 'killer-rabbit.jpeg',
         result: `You fool! That's no ordinary rabbit! That's the most foul, cruel, and bad-tempered rodent you ever set eyes on!`,
         hp: -40,
         gold: 0

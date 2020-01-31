@@ -81,6 +81,9 @@ choiceForm.addEventListener('submit', function(event) {
     if (selection.value === 'fight'){
         image.src = '../assets/quest/killer-rabbit.jpeg';
     }
+    if (selection.value === 'insult'){
+        image.src = '../assets/quest/french.jpeg';
+    }
     
 });
 

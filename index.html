@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Quest for the Holy Grail</title>
+    <link rel="stylesheet" href="common/main.css">
+    <link rel="stylesheet" href="home/home.css">
+    <link rel="stylesheet" href="common/profile.css">
+
+</head>
+<body>
+    <main>
+        <h2>Welcome to England, you have joined the Round Table and the quest for the Holy Grail</h2>
+        <form id="user-sign-up">
+            <p id="userInputName">
+                <label for="name">Enter your name here</label>
+                <input id="name" name="name" required>
+            </p>
+            <fieldset>
+                <legend>Choose your Knight</legend>
+                <p id="avatars">
+                    <label>
+                        <input type="radio" name="race" required value="Arthur">
+                        <img id="avatar" src="./assets/arthur.jpeg">
+                        King Arthur
+                    </label>
+                    <label>
+                        <input type="radio" name="race" required value="Robin">
+                        <img id="avatar" src="./assets/robin.jpeg">
+                        Sir Robin
+                    </label>
+                    <label>
+                        <input type="radio" name="race" required value="Lancelot">
+                        <img id="avatar" src="./assets/lancelot.jpeg">
+                        Lancelot
+                    </label>
+                    <label>
+                        <input type="radio" name="race" required value="Galahad">
+                        <img id="avatar" src="./assets/galahad.jpeg" width="200px">
+                        Galahad
+                    </label>
+                </p>
+            </fieldset>
+            <button id="adventureButton">Start your quest!</button>
+        </form>
+    </main>
+
+    <script type="module" src="home/home.js"></script>
+
+</body>
+</html>

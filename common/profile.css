@@ -1,0 +1,14 @@
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 25px;
+  
+}
+
+.profile * {
+    margin-right: 5px;
+    margin-top: 10px;
+} 
+
+
